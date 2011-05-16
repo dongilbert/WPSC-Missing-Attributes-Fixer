@@ -1,0 +1,1 @@
+A WP Super Cache plugin that handles adding missing attributes to HTML elements of a cached page. (ie, adding height and width attributes to an img tag)
