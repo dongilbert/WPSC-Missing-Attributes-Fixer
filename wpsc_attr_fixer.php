@@ -32,6 +32,7 @@ function wpsc_image_size_action( $buffer ) {
 	}
 	*/
 	$buffer = $dom->saveHTML();
+	$buffer = str_replace(array("</meta>&raquo;", "</meta>\n&raquo;"), "</meta>", $buffer);
 	$buffer = str_replace(array('></br>', '></meta>', '></img>', '></link>'), '/>', $buffer);
 	return $buffer;
 }
