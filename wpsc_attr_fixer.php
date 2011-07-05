@@ -82,4 +82,4 @@ function wpsc_attr_fixer_admin() {
 	<?php
 
 }
-add_cacheaction( 'cache_admin_page', 'wpsc_image_attr_fixer' );
+add_cacheaction( 'cache_admin_page', 'wpsc_attr_fixer_admin' );
